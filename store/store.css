@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: url("store1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #d3cdcd;
+    font-family: 'Hannotate TC',sans-serif;
+    height: 600px;
+    margin: 0 calc(50% - 50vw);
+    display: none;
+}
+
+.title {
+    font-size: 60px;
+    padding-left: 35px;
+    padding-top: 60px;
+    line-height: 0;
+}
+
+.headerlist {
+    font-size: 30px;
+    font-weight: lighter;
+    list-style: none;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.headerlist li {
+    display: inline;
+}
+
+.headerlist a {
+    color: #d3cdcd;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background:  #d3cdcd;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+}
+
+a:hover::after {
+    transform: scale(1, 1);
+}
+
+.main {
+    height: 350px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #868585;
+    display: none;
+}
+
+.main h1 {
+    font-family: 'Hannotate TC',sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.main p {
+    font-family: 'HanziPen TC',sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    background-color: #DBD7D7;
+    height: 1050px;
+}
+
+.phot {
+    position: relative;
+    top: -50px;
+    text-align: center;
+    display: none;
+}
+
+.phota ul {
+    display: flex;
+    margin-left: 550px;
+}
+
+.phota li {
+    padding-left: 25px;
+    list-style: none;
+    display: none;
+}
+
+.aaa {
+    margin-left: 575px;
+    color: #868585;
+}
+
+.aaa h2 {
+    font-size: 30px;
+    font-family: 'Hannotate TC',sans-serif;
+}
+
+.aaa p {
+    font-size: 20px;
+    font-family: 'HanziPen TC',sans-serif;
+}

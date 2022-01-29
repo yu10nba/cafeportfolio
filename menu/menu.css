@@ -1,0 +1,227 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: url("menu1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #d3cdcd;
+    font-family: 'Hannotate TC',sans-serif;
+    height: 600px;
+    margin: 0 calc(50% - 50vw);
+    display: none;
+}  
+
+.title {
+    font-size: 60px;
+    padding-left: 35px;
+    padding-top: 60px;
+    line-height: 0;
+}
+
+.headerlist {
+    font-size: 30px;
+    font-weight: lighter;
+    list-style: none;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.headerlist li {
+    display: inline;
+}
+
+.headerlist a {
+    color: #d3cdcd;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background:  #d3cdcd;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+}
+
+a:hover::after {
+    transform: scale(1, 1);
+}
+
+.container {
+    height: 350px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #868585;
+}
+
+.menu h1 {
+    font-family: 'Hannotate TC',sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.menu p {
+    font-family: 'HanziPen TC',sans-serif;
+    font-size: 25px;
+}
+
+.mainmenu {
+    height: 2000px;
+    background-color: #dbd7d7;
+    color: #868585;
+}
+
+.recomenu h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Hannotate TC',sans-serif;
+    font-size: 70px;
+}
+
+.coffee {
+    padding: 30px 0 0 150px;
+    position: relative;
+}
+
+.ethi {
+    width: 680px;
+    height: 230px;
+    background-color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 1400px;
+    right: 150px;
+}
+
+.ethi h2 {
+    font-family: 'Hannotate TC',sans-serif;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.ethi p {
+    font-family: 'HanziPen TC',sans-serif;
+    font-size: 25px;
+}
+ 
+.bask {
+    width: 680px;
+    height: 230px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 300px 0 0 150px;
+}
+
+.bask h2 {
+    font-family: 'Hannotate TC',sans-serif;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.bask p {
+    font-family: 'HanziPen TC',sans-serif;
+    font-size: 25px;
+}
+
+.cheese {
+    position: absolute;
+    top: 1930px;
+    right: 150px;
+}
+
+.cinnamon {
+    position: absolute;
+    top: 2400px;
+    left: 150px;
+}
+
+.choco {
+    width: 680px;
+    height: 230px;
+    background-color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 2700px;
+    right: 150px;
+}
+
+.choco h2 {
+    font-family: 'Hannotate TC',sans-serif;
+    font-size: 35px;
+    padding-top: 15px;
+}
+
+.choco p {
+    font-family: 'HanziPen TC',sans-serif;
+    font-size: 25px;
+}
+
+.othermenu {
+    color: #868585;
+    height: 700px;
+    background-color: #dbd7d7;
+}
+
+.othermenu h1{
+    font-size: 80px;
+    font-family: 'Hannotate TC',sans-serif;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.menuname {
+    font-size: 40px;
+    font-family: 'HanziPen TC',sans-serif;
+}
+
+.menuname li {
+    width: 490px;
+    padding: 10px 0;
+    list-style-type: none;
+    border-top: 2px solid #868585;
+}
+
+.nedan {
+    font-size: 40px;
+    font-family: 'HanziPen TC',sans-serif;
+}
+
+.nedan li {
+    width: 100px;
+    padding: 10px 0;
+    list-style-type: none;
+    border-top: 2px solid #868585;
+}
+
+.care{
+   width: 500px;
+   margin: 0 auto;
+   text-align: center;
+   font-family: 'HanziPen TC',sans-serif;
+   font-size: 18px;
+}
+
+.menu {
+    display: none;
+}
+
+.mainmenu {
+    display: none;
+}
+
+.othermenu-content {
+    width: 590px;
+    display: flex;
+    margin: 30px auto;
+    border-bottom: 2px solid #868585;
+}

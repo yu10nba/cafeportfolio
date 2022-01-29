@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>store page</title>
+    <link rel="stylesheet" href="store.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+    
+    <header>
+      <h1 class="title">BRAUN NOTES</h1>
+      <ul class="headerlist">
+        <li><a href="../index.html">Home</a></li>
+        <li>/</li>
+        <li><a href="../about/about.html">About</a></li>
+        <li>/</li>
+        <li><a href="../menu/menu.html">Menu</a></li>
+        <li>/</li>
+        <li><a href="store.html">Inside the store</a></li>
+       </ul> 
+    </header>
+    
+    <div class="main">
+      <h1>店内のこだわり</h1>
+      <p>BRAUN NOTESは少し特別で、それでいて居心地のよいリビングルームのようなカフェを目指します。<br>
+        コーヒーと食事を楽しむことはもちろん、読書をする、おしゃべりを楽しむ、勉強や仕事に集中するなど、<br>
+        BRAUN NOTESはみなさんそれぞれのスタイルでご利用いただけるカフェです。</p>
+    </div>
+    
+    <div class="container">
+      <div class="phot">
+       <img src="store2.jpg">
+      </div>
+      <div class="phota">
+      <ul>
+       <li><img src="store3.jpg"></li>
+       <li><img src="store4.jpg"></li>
+      </ul>
+      </div>
+      <div class="aaa">
+       <h2>家族と友人とお一人で</h2>
+       <p>家族の憩いの場所として、友人とのひとときを楽しむ場所として、<br>
+          自分1人のときを大切にする場所としてBRAUN NOTESはみなさんに心地よい<br>
+          時間を過ごしていただくためのスペースです。<br>休日に、仕事の行き帰りに、通学の途中に。<br>みなさんの生活の一部として日々の暮らしを今までよりもっと
+          豊かにする<br>そんなカフェをつくっていきます。
+       </p>
+      </div>
+    </div>
+    
+    <script>
+      $(function() {
+        $('header').slideDown(2000);
+        $('.main').slideDown(3000);
+        $('.phot').slideDown(3000);
+        $('.phota li').slideDown(3000);
+      });
+    </script>
+  </body>
+</html>
