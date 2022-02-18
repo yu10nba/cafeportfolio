@@ -119,7 +119,9 @@ a:hover::after {
     height: 230px;
     background-color: #ffffff;
     text-align: center;
-    margin: 300px 0 0 150px;
+    position: absolute;
+    top: 1750px;
+    left: 150px;
 }
 
 .bask h2 {
